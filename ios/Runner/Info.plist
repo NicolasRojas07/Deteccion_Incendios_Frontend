@@ -1,2 +1,18 @@
-<key>NSCameraUsageDescription</key>
-<string>Necesitamos acceso a la cámara para detectar incendios.</string>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key>
+  <string>fire_detector_app</string>
+  <key>CFBundleDisplayName</key>
+  <string>Fire Detector App</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.tuempresa.fire_detector_app</string>
+  <key>UILaunchStoryboardName</key>
+  <string>LaunchScreen</string>
+  <key>NSCameraUsageDescription</key>
+  <string>Necesitamos acceso a la cámara para detectar incendios en tiempo real</string>
+  <!-- Otras claves importantes como orientación, versión, etc -->
+</dict>
+</plist>
