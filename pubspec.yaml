@@ -1,14 +1,17 @@
-name: Detector_app
-description: Flutter app para abrir la cámara en iOS y Android.
+name: fire_detector_app
+description: A real-time fire detection app using Flutter and TFLite
+version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
-   flutter:
+  flutter:
     sdk: flutter
   camera: ^0.10.0
-  tflite: ^1.1.2
+  tflite_flutter: ^0.10.0
+  tflite_flutter_helper: ^0.4.0
+  path_provider: ^2.0.11
 
 dev_dependencies:
   flutter_test:
@@ -16,7 +19,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-assets:
-  - assets/model.tflite
-  - assets/labels.txt
