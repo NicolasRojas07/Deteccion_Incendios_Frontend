@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   camera: ^0.10.0
-  tflite_flutter: ^0.10.0
+  tflite_flutter: ^0.9.5
   tflite_flutter_helper: ^0.2.0
   path_provider: ^2.0.11
 
